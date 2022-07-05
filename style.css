@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E9EAEC;
+}
+
+
+
+.left-container{
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: #90ADC6;
+}
+
+.foto-contect{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.foto{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.contact-btn{
+    width: 50%;
+    background-color: #E9EAEC;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+    color: #000000;
+}
+
+    .contact-btn:hover{
+        background-color: #FAD02C;
+        color: #333652;
+        transition: width 0.3s;
+        -webkit-transition: width 0.3s;
+        -moz-transition: width 0.3s;
+        -ms-transition: width 0.3s;
+        -o-transition: width 0.3s;
+        transition-timing-function: linear;
+        width: 220px;
+}
+
+
+    .right-container {
+        position: absolute;
+        left: 400px;
+    }
+
+    .top-bar{
+        padding: 50px;
+        padding-left: 100px;
+    }
+
+    .title{
+        font-style: italic;
+        font-size: 1.3rem;
+        color: #000000;
+    }
+
+    .list-menu {
+        float: right;
+        padding-right: 50px;
+    }
+
+    .menu{
+        font-size: 1.1rem;
+        padding: 0 15px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    #profile{
+        padding-top: 100px;
+        padding-left: 100px;
+        color: #000000;
+    }
+
+    #about{
+        padding-top: 100px;
+        padding-left: 100px;
+        color: #000000;
+        font-size: 1rem;
+        padding-right: 100px;
+    }
+
+    #experience{
+        padding-top: 250px;
+        padding-left: 100px;
+        color: #000000;
+    }
+
+    #achiemments{
+        padding-top: 250px;
+        padding-left: 100px;
+        color: #000000;
+    }
+
+    #contact{
+        padding-top: 250px;
+        padding-left: 100px;
+        color: #000000;
+    }
+
+    #footer{
+        padding-top: 250px;
+        text-align: center;
+    }
+
+    p, li{
+        line-height: 200%;
+    }
